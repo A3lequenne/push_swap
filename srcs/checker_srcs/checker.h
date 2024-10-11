@@ -22,7 +22,7 @@ int			countnum(char **av);
 void		ft_lstprint(t_list *lst, t_list *lst2);
 
 // Operators
-void		do_opt(char *opt, t_list **stack_a, void (*f)(t_list **stack_a));
+//void		do_opt(char *opt, t_list **stack_a, void (*f)(t_list **stack_a));
 void		pa(t_list **stack_a, t_list **stack_b);
 void		pb(t_list **stack_a, t_list **stack_b);
 void		ss(t_list **stack_a, t_list **stack_b);
